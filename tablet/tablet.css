@@ -1,0 +1,21 @@
+body{  /* Tablet-pt-Föoldal */
+position: relative; 
+width: 893px;
+height: 1138px;
+background: url(főoldal-min.png);
+}
+header{
+width: 911px;
+height: 87px;
+background-color:rgb(13, 53, 9) ;
+background-repeat: no-repeat;
+position: absolute;
+}
+h1{
+font-size: 20;
+font-family: sans-serif;
+color:white;
+}
+
+
+
