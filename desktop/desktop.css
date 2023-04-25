@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(197, 192, 185);
+}
+
+.keret{
+    position: absolute;
+    width: 1732px;
+    height: 1118px;
+    left: 0px;
+    top: 0px;
+}
+
+.cím{
+    position: absolute;
+    width: 838px;
+    height: 91px;
+    left: -175px;
+    top: 147px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.desktopmenü{
+    position: absolute;
+    width: 1280px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    background-repeat: repeat;
+    background-size: 100%;
+
+    background: #0D3509;
+}
+
+
+button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
