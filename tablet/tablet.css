@@ -1,8 +1,9 @@
 body{  /* Tablet-pt-Föoldal */
-position: absolute; 
+position: fixed;        
 width: 893px;
 height: 1138px;
 background-repeat: no-repeat;
+overflow-y: scroll;
 }
 
 header{
@@ -10,14 +11,26 @@ width: 893px;
 height: 87px;
 background-color:rgb(13, 53, 9) ;
 background-repeat: no-repeat;
-position: absolute;
+position: fixed;
 }
 
 h1{
-font-size: 20;
-font-family: sans-serif;
+font-family: 'Inika';   
+font-style: normal; 
+font-size: 20px;
 color:white;
+text-align: center;
 }
+
+button{
+background-color: #D9D9D9;
+width: 100pt;
+height: 25pt;
+font-size: 16pt;
+font-family: 'Inika';
+margin: 20px 5px
+}
+
 
 
 
