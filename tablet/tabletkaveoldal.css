@@ -6,13 +6,13 @@ background-repeat: no-repeat;
 overflow-y: scroll;
 background-position: 8px 20px;
 background-color: white;
+overflow-y: scroll;
 }
     
 header{
 width: 886px;
 height: 81px;
 background-repeat: no-repeat;
-position: fixed;
 background-color:#0D3509;
 }
     
@@ -57,7 +57,7 @@ width: 886px;
 height: 654px; ;
 padding:1px 0px 0px 0px;
 margin:0px 0px 0px 0px ;
-position: relative;
+position: fixed;
 }
     
 .kaveszoveg{
@@ -134,7 +134,6 @@ margin:0px 0px 0px 100px ;
 }
     
 footer{
-
 background-color: #0D3509;
 }
     
