@@ -2,5 +2,4 @@
 # hello
 # szebihello
 # hello
-# ami
 
