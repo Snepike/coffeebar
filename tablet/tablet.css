@@ -1,46 +1,43 @@
 body{  /* Tablet-pt-Föoldal */
-    position: fixed;        
-    width: 893px;
-    height: 1138px;
-    background-repeat: no-repeat;
-    overflow-y: scroll;
-    background-image: url(kepek/főoldal-min.png);
-    background-position: 8px 20px;
-    }
+width: 893px;
+height: 1138px;
+background-repeat: no-repeat;
+overflow-y: scroll;
+background-image: url(kepek/főoldal-min.png);
+}
         
-    header{
-    width: 893px;
-    height: 87px;
-    background-repeat: no-repeat;
-    position: fixed;
-    background-color: rgb(7, 59, 7);
-    }
+header{
+width: 893px;
+height: 87px;
+background-repeat: no-repeat;
+background-color: rgb(7, 59, 7);
+}
     
-    .cim{
-    color: white;
-    font-family: 'Inika';
-    text-align: left;
-    padding: 0;
-    margin:120px 0px 0px 100px;
-    font-size: 48px;
-    }
+.cim{
+color: white;
+font-family: 'Inika';
+text-align: left;
+padding: 0;
+margin:0px 0px 0px 100px;
+font-size: 48px;
+}
     
-    .fejlecbutton{
-    border:0;
-    background-color:white;
-    width: 100pt;
-    height: 25pt;
-    font-size: 16pt;
-    font-family: 'Inika';
-    margin: 20px 5px
-    }
+.fejlecgomb{    
+border:0;
+background-color:white;
+width: 100pt;
+height: 25pt;
+font-size: 16pt;
+font-family: 'Inika';
+margin: 20px 5px
+}
         
-    .logo{
-    color:white;
-    font-family: 'Inika' ;
-    font-size: 28px;
-    padding: 0px 0px 0px 95px;
-    }
+.logo{
+color:white;
+font-family: 'Inika' ;
+font-size: 28px;
+margin: 0px 0px 0px 0px;
+}
 
 
 
