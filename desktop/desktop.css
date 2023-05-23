@@ -12,6 +12,7 @@ body{
     margin-right: 10px;
     display: flex;
     float:right;
+    cursor: pointer;
 }
 
 
