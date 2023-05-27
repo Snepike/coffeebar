@@ -6,6 +6,13 @@
     background: #0D3509;
 }
 
+.col-xl-2 {
+    border: solid red 1px;
+}
+
+.row {
+    border: solid blue 1px;
+}
 
 button {
     width: 200px;
@@ -169,4 +176,10 @@ footer {
 .kavefajtak {
     text-align: center;
     margin-top: 5px;
+}
+
+.kavek {
+    height: 175px;
+    width: 275px;
+    position: absolute;
 }
