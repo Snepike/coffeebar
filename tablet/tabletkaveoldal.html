@@ -10,59 +10,79 @@
     <link rel="stylesheet" href="tabletkaveoldal.css">
 </head>
 <body>
-<header>
-    <div class="container1">   
-        <button  onclick="windows.location.href='index.html';"  class="fejlecgomb">Főoldal</button>         
-        <button  onclick="window.location.href='tabletkaveoldal.html';" class="fejlecgomb">Sütemények</button>
-        <button  onclick="window.location.href='sutemenyek.html';" class="fejlecgomb">Sütemények</button>        
-        <button  onclick="window.location.href='italok.html';" class="fejlecgomb">Italok</button>              
-        <p class="logo">Coffeebar</p>
-        <img src="kepek/logo.png">
-    </div>              
+<header class="container-fluid">
+        <div class="row"> 
+            <div class="col-md-12 col-lg-12">
+                 <button  onclick="window.location.href = 'index.html';"  class="fejlec-gomb">Főoldal</button>         
+                 <button  onclick="window.location.href = 'tabletkaveoldal.html';" class="fejlec-gomb">Sütemények</button>
+                 <button  onclick="window.location.href = 'sutemenyek.html';" class="fejlec-gomb">Sütemények</button>        
+                 <button  onclick="window.location.href = 'italok.html';"  class="fejlec-gomb">Italok</button>              
+                 <p class="fejlec-logo">Coffeebar</p>
+                 <img src="kepek/egyeb/logo.png">
+            </div>
+        </div>            
 </header>
-       
 <nav>
-    <img src="kepek/cof-min.png" class="bannerkep">
+ <div class="banner"></div>
 </nav>
        
+
+       
 <section>
-    <h1>Coffeebar-Kávéfajták</h1>
-    <div class="container2">
+    <div class="container-fluid">
         <div class="row">
-            <div class="">
-                <img src="kepek/expresso-min.png" class="kepek-kave">
-                <p class="kaveszoveg">Expresso</p>
+            <div class="col-12">
+                <h1>Coffeebar-Kávéfajták</h1>
             </div>
-            <div class="">
-                <img src="kepek/cappuccino-min.png" class="kepek-kave">
-                <p class="kaveszoveg">Cappuccino</p>  
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="kave">
+                    <img src="kepek/kavek/expresso-min.png" class="kepek-kave">
+                    <p class="kaveszoveg">Expresso</p>
+                 </div>
             </div>
-            <div class="">
-                <img src="kepek/latte macchiato-min.png" class="kepek-kave">
-                <p class="kaveszoveg">Latte macchiato</p>  
+            <div class="col-md-6 col-lg-6">
+                <div class="kave">
+                    <img src="kepek/kavek/cappuccino-min.png" class="kepek-kave">
+                    <p class="kaveszoveg">Cappuccino</p>  
+                </div>
             </div>
-            <div class="">
-                <img src="kepek/americano-min.png" class="kepek-kave">
-                <p class="kaveszoveg">Americano</p>  
+            <div class="col-md-6 col-lg-6">
+                <div class="kave">
+                    <img src="kepek/kavek/latte macchiato-min.png" class="kepek-kave">
+                    <p class="kaveszoveg">Latte macchiato</p>  
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="kave">
+                    <img src="kepek/kavek/americano-min.png" class="kepek-kave">
+                    <p class="kaveszoveg">Americano</p>  
+                </div>
             </div>
         </div>
     </div>
 </section>
        
 <footer>
-    <div class="container3">
-        <div class="csoport1">
-         <p class="footerszoveg-kapcsolat1">Kapcsolat</p>
-         <p class="footerszoveg-kapcsolat2">Coffeebar</p>
-         <p class="footerszoveg-kapcsolat2">Coffee@bar.hu</p>
-         <p class="footerszoveg-kapcsolat2">+36-1-555-55-55</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+         <p class="">Kapcsolat</p>
+         <p class="">Coffeebar</p>
+         <p class="">Coffee@bar.hu</p>
+         <p class="">+36-1-555-55-55</p>
+            </div>
         </div>
-        <div class="csoport2">
-         <p class="footerszoveg-kavemagazin1">Kávé Magazin</p>
-         <p class="footerszoveg-kavemagazin2">Iratkozzon fel kávémagazinunkra!</p>
-         <p class="footerszoveg-kavemagazin3">Feliratkozom</p>
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+         <p class="">Kávé Magazin</p>
+         <p class="">Iratkozzon fel kávémagazinunkra!</p>
+         <p class="">Feliratkozom</p>
+            </div>
         </div>  
     </div>        
 </footer>
+
 </body>
 </html>

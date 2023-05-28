@@ -1,47 +1,43 @@
-body{    
-width: 886px;
-height: 1138px;
-background-repeat: no-repeat;
-overflow-y: scroll;
-background-position: 8px 20px;
+body{   
 background-color: white;
-overflow-y: scroll;
+height: 1138px;
+width: 885px;
 }
     
 header{
-width: 886px;
+position: fixed;
 height: 81px;
-background-repeat: no-repeat;
+width: 885px;
 background-color:#0D3509;
 }
     
-.fejlecgomb{
-border:0;
+.fejlec-gomb{
 background-color: white ;
 width: 100pt;
 height: 25pt;
 font-size: 16pt;
 font-family: 'Inika';
-margin: 0px 20px 0px 0px 
 }
           
-.logo{
+.fejlec-logo{
 color:white;
 font-family: 'Inika' ;
-font-size: 28px;
-margin: 5px 0px 0px 60px;
+font-size: 28px;   
 }
     
-.bannerkep{
-width: 886px;
-height: 199px;
-border:0;
+.banner{
+background-image: url(kepek/egyeb/banner.png);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 885px;
+width: 200px;
 }
 
 section{
 background-color: antiquewhite;
-width: 886px;
-height: 654px; ;
+width: 885px;
+height: 656px; ;
 padding:1px 0px 0px 0px;
 }
 
@@ -75,7 +71,7 @@ border-radius: 10px;
 
 footer{
 background-color: #0D3509;
-position: relative;
+background-repeat: no-repeat;
 }
     
 .footerszoveg-kapcsolat1{
