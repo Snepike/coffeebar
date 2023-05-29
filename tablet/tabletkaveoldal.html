@@ -10,79 +10,92 @@
     <link rel="stylesheet" href="tabletkaveoldal.css">
 </head>
 <body>
-<header class="container-fluid">
-        <div class="row"> 
-            <div class="col-md-12 col-lg-12">
-                 <button  onclick="window.location.href = 'index.html';"  class="fejlec-gomb">Főoldal</button>         
-                 <button  onclick="window.location.href = 'tabletkaveoldal.html';" class="fejlec-gomb">Sütemények</button>
-                 <button  onclick="window.location.href = 'sutemenyek.html';" class="fejlec-gomb">Sütemények</button>        
-                 <button  onclick="window.location.href = 'italok.html';"  class="fejlec-gomb">Italok</button>              
-                 <p class="fejlec-logo">Coffeebar</p>
-                 <img src="kepek/egyeb/logo.png">
-            </div>
-        </div>            
-</header>
-<nav>
- <div class="banner"></div>
-</nav>
-       
+    <header class="container-fluid">
+        <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <button  onclick="window.location.href = 'index.html';"  class="fejlec-gomb">Főoldal</button> 
+                    <button  onclick="window.location.href = 'tabletkaveoldal.html';" class="fejlec-gomb">Kávéfajták</button>
+                    <button  onclick="window.location.href = 'sutemenyek.html';" class="fejlec-gomb">Sütemények</button>   
+                    <button  onclick="window.location.href = 'italok.html';"   class="fejlec-gomb">Italok</button>   >
+                    <a class="fejlec-szoveg">Coffeebar
+                        <img src="kepek/egyeb/logo.png" class="fejlec-logo">
+                    </a>  
+                </div>     
+             </div>
+        </div>
+    </header>
 
-       
-<section>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h1>Coffeebar-Kávéfajták</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <div class="kave">
-                    <img src="kepek/kavek/expresso-min.png" class="kepek-kave">
-                    <p class="kaveszoveg">Expresso</p>
-                 </div>
-            </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="kave">
-                    <img src="kepek/kavek/cappuccino-min.png" class="kepek-kave">
-                    <p class="kaveszoveg">Cappuccino</p>  
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="kave">
-                    <img src="kepek/kavek/latte macchiato-min.png" class="kepek-kave">
-                    <p class="kaveszoveg">Latte macchiato</p>  
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="kave">
-                    <img src="kepek/kavek/americano-min.png" class="kepek-kave">
-                    <p class="kaveszoveg">Americano</p>  
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-       
-<footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-         <p class="">Kapcsolat</p>
-         <p class="">Coffeebar</p>
-         <p class="">Coffee@bar.hu</p>
-         <p class="">+36-1-555-55-55</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-         <p class="">Kávé Magazin</p>
-         <p class="">Iratkozzon fel kávémagazinunkra!</p>
-         <p class="">Feliratkozom</p>
-            </div>
-        </div>  
-    </div>        
-</footer>
+    <nav>
+    <div class=" banner"></div>
+    </nav>
 
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="my-4">Coffeebar-Kávéfajták</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">      
+                    <div class="kave">
+                        <img src="kepek/kavek/expresso-min.png" alt="" class="img-fluid">
+                        <h2>Expresso</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="kave">
+                        <img src="kepek/egyeb/icon.png" alt="" id="main-icon">
+                        <img src="kepek/kavek/cappuccino-min.png" alt="" class="img-fluid">
+                        <h2>Cappuccino</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="kave">
+                        <img src="kepek/kavek/latte macchiato-min.png" alt="" class="img-fluid">
+                        <h2>Latte macchiato</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="kave">
+                        <img src="kepek/kavek/americano-min.png" alt="" class="img-fluid">
+                        <h2>Americano</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<div class="footer">
+    <footer class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 offset-lg-1">
+                <h2 class="mt3 lablec-cim">Kapcsolat</h2>
+                <ul>
+                    <li>
+                        <img src="kepek/egyeb/mail.png" alt="" class="lablec-icon">
+                        <a class="lablec-szoveg">Coffeebar</a>
+                    </li>
+                    <li>
+                        <img src="kepek/egyeb/arroba.png" alt="" class="lablec-icon">
+                        <a class="lablec-szoveg">Coffee@bar.hu</a>
+                    </li>
+                    <li>
+                        <img src="kepek/egyeb/phone-call.png" alt="" class="lablec-icon" > 
+                        <a class="lablec-szoveg">+36-1-555-55-55</a>
+                    </li>
+                 </ul>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <h2 class="mt3 lablec-cim">Kávémagazin</h2>
+                <p class="lablec-szoveg">Iratkozzon fel a kávé magazinunkra!</p>
+                <form>
+                    <input type="text" class="">
+                    <input type="button" value="Feliratkozom" class="lablec-feliratkozom">
+                </form>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
