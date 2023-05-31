@@ -1,128 +1,126 @@
-body{    
-width: 886px;
-height: 1138px;
-background-repeat: no-repeat;
-overflow-y: scroll;
-background-position: 8px 20px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+body{
 background-color: white;
-overflow-y: scroll;
-}
-    
-header{
-width: 886px;
-height: 81px;
-background-repeat: no-repeat;
-background-color:#0D3509;
-}
-    
-.fejlecgomb{
-border:0;
-background-color: white ;
-width: 100pt;
-height: 25pt;
-font-size: 16pt;
-font-family: 'Inika';
-margin: 0px 20px 0px 0px 
-}
-          
-.logo{
-color:white;
-font-family: 'Inika' ;
-font-size: 28px;
-margin: 5px 0px 0px 60px;
-}
-    
-.bannerkep{
-width: 886px;
-height: 199px;
-border:0;
 }
 
-section{
+header{
+background-color: #1f5b25;
+background-size: cover;
+width: 100%;
+padding: 15px;
+position: fixed;
+z-index: 5;
+}
+
+.fejlec-gomb{
+color: black;
+font-size: 1.5em;
+font-family: 'Roboto', sans-serif ;
+background-color: silver;
+border: 0px;
+margin: 10px;
+width: 6em;
+}
+
+.fejlec-szoveg{
+color:white;
+font-family: 'Roboto', sans-serif ;
+font-size: 2em;   
+text-decoration: none;
+font-style: bold;
+position: fixed;
+right: 0;
+}
+
+.fejlec-logo{
+width: 2em;
+height: 2em;
+}
+
+.banner{
+background-image: url(kepek/egyeb/banner1.png);
+background-position: center center;
+background-size: cover;
+height: 400px;
+z-index:5;
+}
+
+main{
 background-color: antiquewhite;
-width: 886px;
-height: 654px; ;
-padding:1px 0px 0px 0px;
 }
 
 h1{
-font-size: 48px;
-font-family: 'Inika';
 text-align: center;
-padding: 0px ;
 color: black;
-margin:10px 30px 10px 0px ;
+font-family: 'Roboto', sans-serif ;
+font-size: 4em;
 }
-   
-.kaveszoveg{
-color:white;
-font-family: 'Inika';
-font-size:24px;
+
+.img-fluid{
+border-radius: 1em;
+max-width: 100%;
+max-height: 100%;
+width: 100%;
+}
+
+.kave h2{
 text-align: center;
 background-color: #D9D9D9;
-padding:0;
-margin:0px 58px 20px 40px ;
-border-radius: 10px;
-}
-        
-.kepek-kave{
-border-radius: 10px;
-border:1;
-padding:0px 20px 0px 0px ;
-margin:0px 40px;
-border-radius: 10px;
+color: black;
+font-family: 'Roboto', sans-serif ;
+font-size: 2em;
+border-radius: 1em;
+width:100%;
+margin:0px 0px 30px 0px ;
 }
 
-footer{
-background-color: #0D3509;
-position: relative;
-}
-    
-.footerszoveg-kapcsolat1{
-color:black;
-font-family: 'Inika';
-background-color:  #D9D9D9;
-font-size: 28px; 
-text-align: left;
-margin:0px 90px 10px 0px;
-padding: 0px 20px 0px 0px ;
-}
-    
-.footerszoveg-kapcsolat2{
-color:black;
-font-family: 'Inika';
-background-color:  #D9D9D9;
-font-size:24px;
-text-align: left;
-margin:5px 0px 0px 0px ;
-}
-    
-.footerszoveg-kavemagazin1{
-color:black;
-font-family: 'Inika';
-background-color:  #D9D9D9;
-font-size: 28px;
-text-align: center;
-margin:0px 130px 10px 110px ;
-}
-    
-.footerszoveg-kavemagazin2{
-color:black;
-font-family: 'Inika';
-background-color:  #D9D9D9;
-font-size:24px;
-text-align: right;
-margin:0px 0px 10px 100px ;
-}
-    
-.footerszoveg-kavemagazin3{
-color:black;
-font-family: 'Inika';
-background-color:  #D9D9D9;
-font-size:24px;
-text-align: right;
-margin:0px 0px 0px 100px ;
-border-radius: 5px;
+#main-icon{
+position: absolute;
+width: 40px;;
+border:0px ;
 }
 
+.footer{
+background-color: #1f5b25;
+color: white;
+}
+
+footer h2{
+background-color: #D9D9D9;
+color: black;
+font-family: 'Roboto', sans-serif ;
+}
+
+footer li{
+list-style-type: none;
+}
+
+footer li>img{
+width:35px ;
+margin-right:25px ;
+}
+
+.lablec-cim{
+margin: 10px 0px 10px 0px;
+}
+
+.lablec-icon{
+background-color:#D9D9D9 ;
+}
+
+.lablec-szoveg{
+background-color: #D9D9D9;
+color: black;
+font-family: 'Roboto', sans-serif ;
+text-decoration: none;
+font-size: 1.5em;
+}
+
+.lablec-feliratkozom{
+background-color: antiquewhite;
+border: 0;
+color: black;
+font-family: 'Roboto', sans-serif ;
+}
 

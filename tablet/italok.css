@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+body{
+background-color: white;
+}
+
+header{
+background-color: #1f5b25;
+background-size: cover;
+width: 100%;
+padding: 15px;
+position: fixed;
+z-index: 5;
+}
+
+.fejlec-gomb{
+color: black;
+font-size: 1.5em;
+font-family: 'Roboto', sans-serif ;
+background-color: silver;
+border: 0px;
+margin: 10px;
+width: 6em;
+}
+
+.fejlec-szoveg{
+color:white;
+font-family: 'Roboto', sans-serif ;
+font-size: 2em;   
+text-decoration: none;
+font-style: bold;
+position: fixed;
+right: 0;
+}
+
+.fejlec-logo{
+width: 2em;
+height: 2em;
+}
+
+.banner{
+background-image: url(kepek/egyeb/banner1.png);
+background-position: center center;
+background-size: cover;
+height: 400px;
+z-index:5;
+}
+
+main{
+background-color: antiquewhite;
+}
+
+h1{
+text-align: center;
+color: black;
+font-family: 'Roboto', sans-serif ;
+font-size: 4em;
+}
+
+.img-fluid{
+border-radius: 1em;
+max-width: 100%;
+max-height: 100%;
+width: 100%;
+}
+
+
+.kave h2{
+text-align: center;
+background-color: #D9D9D9;
+color: black;
+font-family: 'Roboto', sans-serif ;
+font-size: 2em;
+border-radius: 1em;
+width:100%;
+margin:0px 0px 30px 0px ;
+}
+
+#main-icon{
+position: absolute;
+width: 40px;;
+border:0px ;
+}
+
+.footer{
+background-color: #1f5b25;
+color: white;
+}
+
+footer h2{
+background-color: #D9D9D9;
+color: black;
+font-family: 'Roboto', sans-serif ;
+}
+
+footer li{
+list-style-type: none;
+}
+
+footer li>img{
+width:35px ;
+margin-right:25px ;
+}
+
+.lablec-cim{
+margin: 10px 0px 10px 0px;
+}
+
+.lablec-icon{
+background-color:#D9D9D9 ;
+}
+
+.lablec-szoveg{
+background-color: #D9D9D9;
+color: black;
+font-family: 'Roboto', sans-serif ;
+text-decoration: none;
+font-size: 1.5em;
+}
+
+.lablec-feliratkozom{
+background-color: antiquewhite;
+border: 0;
+color: black;
+font-family: 'Roboto', sans-serif ;
+}
