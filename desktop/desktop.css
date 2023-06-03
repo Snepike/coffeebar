@@ -38,7 +38,7 @@ body{
     height: 70px;
     margin-top: 0px;
     margin-left: 0px;
-    background: #0D3509;
+    background: #1f5b25;
 }
 
 
@@ -55,13 +55,25 @@ button {
     cursor: pointer;
 }
 
-.gombok {
-    margin-left: 60px;
+.gombok_kul {
     margin-top: 15px;
-    width: 200px;
+    margin-left: 45px;
+    width: 190px;
     height: 40px;
     left: 48px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
+    line-height: 41.7px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.gombok {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 190px;
+    height: 40px;
+    left: 48px;
+    font-family: 'Roboto,', sans-serif;
     line-height: 41.7px;
     font-weight: 500;
     font-size: larger;

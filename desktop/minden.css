@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
 .backgroundcolor{
     background-color: #E4D6C6;
 }
@@ -26,7 +28,7 @@
     left: -175px;
     top: 147px;
 
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -41,7 +43,7 @@
     height: 70px;
     margin-top: 0px;
     margin-left: 0px;
-    background: #0D3509;
+    background: #1f5b25;
 }
 
 
@@ -49,7 +51,7 @@ button {
     width: 200px;
     height: 40px;
     left: 48px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
     line-height: 41.7px;
     font-weight: 400;
     border: none;
@@ -58,32 +60,53 @@ button {
     cursor: pointer;
 }
 
-.gombok {
-    margin-left: 60px;
+.gombok_kul {
     margin-top: 15px;
-    width: 200px;
+    margin-left: 45px;
+    width: 190px;
     height: 40px;
     left: 48px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
     line-height: 41.7px;
     font-weight: 500;
     font-size: larger;
 }
 
+.gombok {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 190px;
+    height: 40px;
+    left: 48px;
+    font-family: 'Roboto,', sans-serif;
+    line-height: 41.7px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.banner {
+    background-image: url(képek/fooldalkep.jpg);
+    height: 203px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .kepek {
-    height: 150px;
-    width: 225px;
+    height: 196px;
+    width: 300px;
 }
 
 .kave-nevek {
     text-align: center;
     background-color: #D9D9D9;
-    width: 225px;
+    width: 300px;
     font-weight: bold;
 }
 
 footer {
-    background-color: #0D3509;
+    background-color: #1f5b25;
     height: 229px;
     width: 100%;
 }
@@ -101,7 +124,7 @@ footer {
     margin-top: 12px;
     margin-left: 190px;
     width: 200px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -113,7 +136,7 @@ footer {
     background-color: #D9D9D9;
     margin-bottom: 10px;
     margin-left: 210px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -126,7 +149,7 @@ footer {
     background-color: #D9D9D9;
     margin-bottom: 12px;
     margin-left: 150px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -138,7 +161,7 @@ footer {
     background-color: #D9D9D9;
     margin-bottom: 15px;
     margin-left: 150px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -149,7 +172,7 @@ footer {
     background-color: #D9D9D9;
     margin-bottom: 15px;
     margin-left: 150px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 42px;
