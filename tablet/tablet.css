@@ -45,12 +45,13 @@ width: 2em;
 height: 2em;
 }
 
-.cim{
+.main-cim{
 position: relative;
-padding: 3em 0em 0em 4em;
+margin: 4em 0em 0em 3em;
 color: white;
-font-family: 'Inika';
-font-size: 48px;
+font-family: 'Roboto', sans-serif;
+font-size:50px;
+font-weight: bold;
 }
 
 
