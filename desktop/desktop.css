@@ -1,20 +1,20 @@
-body{
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
-.logoszoveg {
-    display: flex;
-}
+.fejlec-szoveg{
+    color:white;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 2em;   
+    text-decoration: none;
+    font-style: bold;
+    position: fixed;
+    right: 6px;
+    }
+    
 
-.logo {
-    margin-top: 6px;
-    margin-right: 10px;
-    display: flex;
-    float:right;
-    cursor: pointer;
-}
-
+.fejlec-logo{
+    width: 2em;
+    height: 2.5em;
+    }
 
 .cím{
     position: absolute;
@@ -23,7 +23,7 @@ body{
     left: -175px;
     top: 147px;
 
-    font-family: 'Inika';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -46,7 +46,7 @@ button {
     width: 200px;
     height: 40px;
     left: 48px;
-    font-family: 'Inika';
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     line-height: 41.7px;
     font-weight: 400;
     border: none;

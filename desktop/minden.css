@@ -8,18 +8,21 @@
     text-align: center;
 }
 
-.logoszoveg {
-    display: flex;
-}
+.fejlec-szoveg{
+    color:white;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 2em;   
+    text-decoration: none;
+    font-style: bold;
+    position: fixed;
+    right: 6px;
+    }
+    
 
-.logo {
-    margin-top: 6px;
-    margin-right: 10px;
-    display: flex;
-    float:right;
-    cursor: pointer;
-}
-
+.fejlec-logo{
+    width: 2em;
+    height: 2.5em;
+    }
 
 .cím{
     position: absolute;
