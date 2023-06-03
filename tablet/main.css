@@ -2,6 +2,7 @@
 
 body{
 background-color: white;
+width:100%
 }
 
 header{
@@ -11,6 +12,7 @@ width: 100%;
 padding: 15px;
 position: fixed;
 z-index: 5;
+width: 100%;
 }
 
 .fejlec-gomb{
@@ -48,6 +50,7 @@ z-index:5;
 
 main{
 background-color: antiquewhite;
+width: 100%;
 }
 
 
@@ -127,7 +130,7 @@ font-family: 'Roboto', sans-serif ;
 
 .elhalvanyitott-oldal {
 position: relative;
-z-index: 1;
+z-index: 2;
 }
 
 .elhalvanyitott-oldal::before{
@@ -148,25 +151,24 @@ left: 50%;
 transform: translate(-50%, -50%);
 display: flex;
 justify-content: center;
-
 }
 
 .popup-kocka1{
 background-color: green;
-width: 400px;
-height: 500px;
+width: 350px;
+height: 400px;
 color: white;
 flex: 1;
-padding: 2em;
-max-width: 400px;
+padding: 0.5em;
+max-width: 350px;   
 }
 
 .popup-kocka2{
 background-color: antiquewhite;
-width: 700px;
-height: 500px;
+width: 600px;
+height: 400px;
 flex: 1;
-max-width: 700px;
+max-width: 600px;
 padding: 0.3em;
 }
 
@@ -176,11 +178,16 @@ font-family: 'Roboto', sans-serif ;
 font-size:3em;
 }
 
+.popup-kep{
+width: 100%;
+}
+
 .popup-szoveg{
 text-align: justify;
 color: black;
 font-family: 'Roboto', sans-serif ;
-font-size: 2em;
+font-size: 1.5em;
+padding: 5px;
 }
 
 .popup-visszagomb{
@@ -189,5 +196,162 @@ border: 0;
 font-family: 'Roboto', sans-serif ;
 font-size:2em;
 color: white;
-margin: 0em 0em 0em 17em;
+margin: 2em 0em 0em 14em;
+}
+
+
+@media (min-width: 769px) and (max-width: 845px) {
+    .popup-kocka1{
+        width: 80%;
+        font-size: 90%;
+    }
+
+    .popup-kocka2{
+        width: 70%;
+        font-size: 90%;
+    }
+
+    .popup-kep{
+        width: 90%;
+    }
+
+    .popup-visszagomb{
+        margin: 1em 0em 0em 12em;
+    }
+}
+
+
+@media (min-width: 846px) and (max-width: 900px) {
+    .popup-kocka1{
+        width: 80%;
+        font-size: 90%;
+    }
+
+    .popup-kocka2{
+        width: 70%;
+        font-size: 90%;
+    }
+
+    .popup-kep{
+        width: 90%;
+    }
+
+    .popup-visszagomb{
+        margin:2em 0em 0em 14em;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 930px) {
+    .popup-kocka1{
+        width: 80%;
+        font-size: 90%;
+    }
+
+    .popup-kocka2{
+        width: 70%;
+        font-size: 100%;
+    }
+
+    .popup-kep{
+        width: 90%;
+    }
+
+    .popup-visszagomb{
+        margin:1em 0em 0em 14em;
+    }
+}
+
+@media (min-width: 931px) and (max-width: 955px) {
+    .popup-kocka1{
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .popup-kocka2{
+        width: 70%;
+        font-size: 100%;
+    }
+
+    .popup-kep{
+        width: 90%;
+    }
+
+    .popup-visszagomb{
+        margin:1em 0em 0em 14em;
+    }
+}
+
+.popup-tartalom-l{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+    
+.popup-kocka1-l{
+    background-color: green;
+    width: 350px;
+    height: 400px;
+    color: white;
+    flex: 1;
+    padding: 0.5em;
+    max-width: 350px;   
+}
+    
+.popup-kocka2-l{
+    background-color: antiquewhite;
+    width: 600px;
+    height: 400px;
+    flex: 1;
+    max-width: 600px;
+    padding: 0.3em;
+}
+    
+.popup-cim-l{
+    color:white;
+    font-family: 'Roboto', sans-serif ;
+    font-size:3em;
+}
+    
+.popup-kep-l{
+    width: 100%;
+}
+    
+.popup-szoveg-l{
+    text-align: justify;
+    color: black;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1.5em;
+    padding: 5px;
+}
+    
+.popup-visszagomb-l{
+    background-color: #1f5b25;
+    border: 0;
+    font-family: 'Roboto', sans-serif ;
+    font-size:2em;
+    color: white;
+    margin: 2em 0em 0em 14em;
+}
+
+@media (min-width: 769px) and (max-width: 845px) {
+    .popup-kocka1-l{
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .popup-kocka2-l{
+        width: 70%;
+        font-size: 100%;
+    }
+
+    .popup-kep-l{
+        width: 90%;
+    }
+
+    .popup-visszagomb-l{
+        margin:1em 0em 0em 14em;
+    }
 }
