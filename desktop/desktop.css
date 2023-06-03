@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
+
+.backgroundcolor {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 .fejlec-szoveg{
-    color:white;
+    color:silver;
     font-family: 'Roboto', sans-serif ;
-    font-size: 2em;   
+    font-size: 1.7em;  
+    margin-top: 2.3px;
     text-decoration: none;
     font-style: bold;
-    position: fixed;
+    float: right;
     right: 6px;
     }
     
@@ -56,6 +63,7 @@ button {
 }
 
 .gombok_kul {
+    background-color: #C0C0C0;
     margin-top: 15px;
     margin-left: 45px;
     width: 190px;
@@ -68,6 +76,7 @@ button {
 }
 
 .gombok {
+    background-color: #C0C0C0;
     margin-left: 15px;
     margin-top: 15px;
     width: 190px;
