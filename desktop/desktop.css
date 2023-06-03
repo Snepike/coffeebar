@@ -1,20 +1,27 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+.backgroundcolor {
     overflow-y: hidden;
     overflow-x: hidden;
 }
 
-.logoszoveg {
-    display: flex;
-}
+.fejlec-szoveg{
+    color:silver;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1.7em;  
+    margin-top: 2.3px;
+    text-decoration: none;
+    font-style: bold;
+    float: right;
+    right: 6px;
+    }
+    
 
-.logo {
-    margin-top: 6px;
-    margin-right: 10px;
-    display: flex;
-    float:right;
-    cursor: pointer;
-}
-
+.fejlec-logo{
+    width: 2em;
+    height: 2.5em;
+    }
 
 .cím{
     position: absolute;
@@ -23,7 +30,7 @@ body{
     left: -175px;
     top: 147px;
 
-    font-family: 'Inika';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -38,7 +45,7 @@ body{
     height: 70px;
     margin-top: 0px;
     margin-left: 0px;
-    background: #0D3509;
+    background: #1f5b25;
 }
 
 
@@ -46,7 +53,7 @@ button {
     width: 200px;
     height: 40px;
     left: 48px;
-    font-family: 'Inika';
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     line-height: 41.7px;
     font-weight: 400;
     border: none;
@@ -55,13 +62,27 @@ button {
     cursor: pointer;
 }
 
-.gombok {
-    margin-left: 60px;
+.gombok_kul {
+    background-color: #C0C0C0;
     margin-top: 15px;
-    width: 200px;
+    margin-left: 45px;
+    width: 190px;
     height: 40px;
     left: 48px;
-    font-family: 'Inika';
+    font-family: 'Roboto,', sans-serif;
+    line-height: 41.7px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.gombok {
+    background-color: #C0C0C0;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 190px;
+    height: 40px;
+    left: 48px;
+    font-family: 'Roboto,', sans-serif;
     line-height: 41.7px;
     font-weight: 500;
     font-size: larger;
