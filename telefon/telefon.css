@@ -41,7 +41,8 @@ right: 0;
 .main-cim{
 color:white;
 font-family: 'Roboto', sans-serif ;
-font-size: 2em;   
+font-size: 3em;   
 position: relative;
-padding: ;
+padding: 3em 0em 0em 1em ;
+font-weight: bold;
 }
