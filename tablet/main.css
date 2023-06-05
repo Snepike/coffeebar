@@ -163,6 +163,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 display: flex;
 justify-content: center;
+z-index: 5;
 }
 
 .popup-kocka1{
@@ -212,7 +213,16 @@ margin: 2em 0em 0em 14em;
 }
 
 
-@media (min-width: 769px) and (max-width: 845px) {
+@media (min-width: 765px) and (max-width: 845px) {
+    .fejlec-gomb{
+        width: 5.6em;
+        font-size: 1.3em;
+    }
+
+    .fejlec-szoveg{
+        font-size: 1.7em;
+    }
+    
     .popup-kocka1{
         width: 80%;
         font-size: 90%;
@@ -234,6 +244,15 @@ margin: 2em 0em 0em 14em;
 
 
 @media (min-width: 846px) and (max-width: 900px) {
+    .fejlec-gomb{
+        width: 5.7em;
+        font-size: 1.5em;
+    }
+
+    .fejlec-szoveg{
+        font-size: 1.9em;
+    }
+       
     .popup-kocka1{
         width: 80%;
         font-size: 90%;
@@ -269,7 +288,7 @@ margin: 2em 0em 0em 14em;
     }
 
     .popup-visszagomb{
-        margin:1em 0em 0em 14em;
+        margin:0.8em 0em 0em 14em;
     }
 }
 
@@ -289,7 +308,67 @@ margin: 2em 0em 0em 14em;
     }
 
     .popup-visszagomb{
-        margin:1em 0em 0em 14em;
+        margin:0.8em 0em 0em 14em;
+    }
+}
+
+@media (min-width: 956px) and (max-width: 1200px) {
+    .popup-kocka1{
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .popup-kocka2{
+        width: 70%;
+        font-size: 100%;
+    }
+
+    .popup-kep{
+        width: 90%;
+    }
+
+    .popup-visszagomb{
+        margin:1.6em 0em 0em 15em;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .popup-kocka1{
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .popup-kocka2{
+        width: 70%;
+        font-size: 100%;
+    }
+
+    .popup-kep{
+        width: 90%;
+    }
+
+    .popup-visszagomb{
+        margin:1.6em 0em 0em 15em;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 2632px) {
+    .popup-kocka1{
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .popup-kocka2{
+        width: 70%;
+        font-size: 100%;
+    }
+
+    .popup-kep{
+        width: 90%;
+    }
+
+    .popup-visszagomb{
+        margin:1.6em 0em 0em 15em;
     }
 }
 
@@ -300,24 +379,25 @@ left: 50%;
 transform: translate(-50%, -50%);
 display: flex;
 justify-content: center;
+z-index: 5;
 }
     
 .popup-kocka1-l{
 background-color: green;
-width: 350px;
+width: 320px;
 height: 400px;
 color: white;
 flex: 1;
 padding: 0.5em;
-max-width: 350px;   
+max-width: 320px;   
 }
     
 .popup-kocka2-l{
 background-color: antiquewhite;
-width: 600px;
+width: 550px;
 height: 400px;
 flex: 1;
-max-width: 600px;
+max-width: 550px;
 padding: 0.3em;
 }
     
@@ -329,7 +409,7 @@ margin: 0em 0em 0em 0em ;
 }
     
 .popup-kep-l{
-width: 100%;
+width: 90%;
 }
     
 .popup-szoveg-l{
@@ -346,10 +426,32 @@ border: 0;
 font-family: 'Roboto', sans-serif ;
 font-size:2em;
 color: white;
-margin: 2em 0em 0em 14em;
+margin: 0em 0em 0em 10em;
 }
 
-@media (min-width: 769px) and (max-width: 960px) {
+@media (min-width: 768px) and (max-width: 855px) {
+    .popup-kocka1-l{
+        width: 80%;
+        font-size: 100%;
+        height: 350px;
+    }
+
+    .popup-kocka2-l{
+        width: 70%;
+        font-size: 90%;
+        height: 350px;
+    }
+
+    .popup-kep-l{
+        width: 100%;
+    }
+
+    .popup-visszagomb-l{
+        margin:1.5em 0em 0em 13em;
+    }
+}
+
+@media (min-width: 856px) and (max-width: 900px) {
     .popup-kocka1-l{
         width: 80%;
         font-size: 100%;
@@ -365,6 +467,47 @@ margin: 2em 0em 0em 14em;
     }
 
     .popup-visszagomb-l{
-        margin:1em 0em 0em 14em;
+        margin:1.7em 0em 0em 13em;
     }
 }
+
+@media (min-width: 901px) and (max-width: 945px) {
+    .popup-kocka1-l{
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .popup-kocka2-l{
+        width: 70%;
+        font-size: 100%;
+    }
+
+    .popup-kep-l{
+        width: 100%;
+    }
+
+    .popup-visszagomb-l{
+        margin:2em 0em 0em 13em;
+    }
+}
+
+@media (min-width: 946px) and (max-width: 2632px) {
+    .popup-kocka1-l{
+        width: 80%;
+        font-size: 100%;
+    }
+
+    .popup-kocka2-l{
+        width: 70%;
+        font-size: 100%;
+    }
+
+    .popup-kep-l{
+        width: 100%;
+    }
+
+    .popup-visszagomb-l{
+        margin:1.9em 0em 0em 13em;
+    }
+}
+
