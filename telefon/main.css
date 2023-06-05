@@ -182,7 +182,7 @@ color: white;
     
     .popup-tartalom{
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -191,34 +191,27 @@ color: white;
     }
     
     .popup-kocka1{
-    background-color: #1f5b25;
-    position: absolute;
-    width: 372px;
-    height: 61px;
+    background-color: green;
+    height: 100px;
     color: white;
     flex: 1;
     padding: 0.5em;
-    max-width: 350px;   
+    max-width: 372px;   
     }
     
     .popup-kocka2{
     background-color: antiquewhite;
-    width: 372px;
-    height: 370px;
+    width: 600px;
+    height: 400px;
     flex: 1;
     max-width: 600px;
     padding: 0.3em;
-    line-height: 22.15px;
     }
     
     .popup-cim{
     color:white;
     font-family: 'Roboto', sans-serif ;
-    font-size: 20px;
-    position: absolute;
-    text-align: center;
-    margin-left:120px ;
-    margin-top: 7.5px;
+    font-size:3em;
     }
     
     .popup-kep{
@@ -226,7 +219,7 @@ color: white;
     }
     
     .popup-szoveg{
-    font-style: normal;
+    text-align: justify;
     color: black;
     font-family: 'Roboto', sans-serif ;
     font-size: 1.5em;
@@ -239,11 +232,7 @@ color: white;
     font-family: 'Roboto', sans-serif ;
     font-size:2em;
     color: white;
-    height: 50px;
-    width: 150px;
-    margin-top: 30px;
-    margin-left: 125px;
-    display: block;
+    margin: 2em 0em 0em 14em;
     }
     
     
@@ -418,8 +407,8 @@ color: white;
         
     .popup-kocka1-l{
     background-color: green;
-    width: 372px;
-    height: 61px;
+    width: 320px;
+    height: 400px;
     color: white;
     flex: 1;
     padding: 0.5em;
@@ -447,8 +436,8 @@ color: white;
     }
         
     .popup-szoveg-l{
+    text-align: justify;
     color: black;
-    font-style: normal;
     font-family: 'Roboto', sans-serif ;
     font-size: 1.5em;
     padding: 5px;
@@ -462,6 +451,13 @@ color: white;
     color: white;
     margin: 0em 0em 0em 10em;
     }
+    
+    @media (min-width: 768px) and (max-width: 855px) {
+        .popup-kocka1-l{
+            width: 80%;
+            font-size: 100%;
+            height: 350px;
+        }
     
         .popup-kocka2-l{
             width: 70%;
@@ -477,6 +473,13 @@ color: white;
             margin:1.5em 0em 0em 13em;
         }
     }
+    
+    @media (min-width: 856px) and (max-width: 900px) {
+        .popup-kocka1-l{
+            width: 80%;
+            font-size: 100%;
+        }
+    
         .popup-kocka2-l{
             width: 70%;
             font-size: 100%;
@@ -510,7 +513,13 @@ color: white;
             margin:2em 0em 0em 13em;
         }
     }
-
+    
+    @media (min-width: 946px) and (max-width: 2632px) {
+        .popup-kocka1-l{
+            width: 80%;
+            font-size: 100%;
+        }
+    
         .popup-kocka2-l{
             width: 70%;
             font-size: 100%;
@@ -524,5 +533,3 @@ color: white;
             margin:1.9em 0em 0em 13em;
         }
     }
-    
-
