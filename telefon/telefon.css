@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
-
 body{
 background-image: url(kepek/egyeb/banner1.png);
-background-size: cover;
 background-repeat: no-repeat;
-background-position: center center;
-width: 100%;
-height: 1400px;
+background-size: cover;
+background-attachment: fixed;
+background-position: 50% 50%
 }
 
 header{
-background-color: #1f5b25;
+background-color: #1f5b25 ;
 background-size: cover;
 padding: 15px;
 position: fixed;
@@ -20,17 +18,17 @@ width: 100%;
 height:6em;
 }
 
-.fejlec-gomb{
-color: black;
-font-size: 1.5em;
-font-family: 'Roboto', sans-serif ;
-background-color: silver;
-border: 0px;
-margin: 10px;
-width: 6em;
+.fejlec-menugomb{
+border: 0;
+background-color: transparent;
+padding: 10px;
 }
 
-.fejlec-szoveg{
+.fejlec-menu{
+width: 3em;
+}
+
+.fejlec-cim{
 color:white;
 font-family: 'Roboto', sans-serif ;
 font-size: 2em;   
@@ -40,21 +38,12 @@ position: fixed;
 right: 0;
 }
 
-.fejlec-logo{
-width: 2em;
-height: 2em;
-}
-
 .main-cim{
+color:white;
+font-family: 'Roboto', sans-serif ;
+font-size: 3em;   
 position: relative;
-margin: 4em 0em 0em 2em;
-color: white;
-font-family: 'Roboto', sans-serif;
-font-size:50px;
+padding: 2.5em 0em 0em 0.5em ;
 font-weight: bold;
 }
-
-
-
-
 
